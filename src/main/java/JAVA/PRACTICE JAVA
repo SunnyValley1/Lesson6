@@ -1,0 +1,89 @@
+JAVA
+
+public class App2 {
+    public static void main(String[] args) {
+        int[]numbers = {1,1,3,5,65,3,6,-1,0,0,35,12,546,-56,657,12,56,8,32,45,67,23,-89,43};
+
+//        for (int i = 0; i<numbers.length;i++){
+//            System.out.println(numbers[i]);
+//        }
+
+//        for (int i= numbers.length-1; i>=0;i--){
+//            System.out.println(numbers[i]);
+//        }
+
+        String[]fruits = {"Apple","Pineapple","Peach","Plum","Apple","Orange","Kiwi","Tangerine"};
+//        for (int i = 0; i< fruits.length;i++){
+//            System.out.println(fruits[i]);
+//        }
+
+//        for (String fruit : fruits){
+//            System.out.println(fruit);
+//        }
+
+//        for (int v : numbers) {
+//            System.out.println(v);
+//        }
+
+        double[] temps = {34.5,32.6,12.5,56.54};
+        for (double v: temps){
+            System.out.println(v);
+        }
+
+    }
+}
+public class App3 {
+    public static void main(String[] args) {
+        boolean x = true;
+
+        while (x){
+            System.out.println("hi");
+            x=false;
+        }
+        x=false;
+        do {
+            System.out.println(x);
+        } while (x);
+    }
+}
+public class App4 {
+    public static void main(String[] args) {
+        int[]numbers = {1,1,3,5,65,3,6,-1,0,0,35,12,546,-56,657,12,56,8,32,45,67,23,-89,43};
+        // Modus - %
+//        System.out.println(1%2);
+//        for (int number : numbers){
+//            if(number%2==0){
+//                System.out.println(number);
+//            }
+//        }
+
+//        for (int v : numbers){
+//            if (v % 2==1 || v %2==-1){  //v % 2 !=0
+//                System.out.println(v);
+//            }
+//        }
+
+//        for (int v : numbers){
+//            if(v<0){
+//                System.out.println(v);
+//            }
+//        }
+//        int max = numbers[0];
+//
+//        for (int v : numbers){
+//            if(max<v){
+//                max=v;
+//            }
+//        }
+//        System.out.println("Max = "+max);
+
+        int min = numbers[0];
+
+        for (int v : numbers){
+            if(min>v){
+                min=v;
+            }
+        }
+        System.out.println("Min = "+min);
+    }
+}
